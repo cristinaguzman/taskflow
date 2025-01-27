@@ -1,0 +1,38 @@
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: inherit; /* Mantener el color del texto heredado */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+  /* Estilo del header con imagen de fondo */
+
+
+
+a:hover {
+    text-decoration: underline; /* Subrayar solo en hover */
+    color: #007bff; /* Cambiar color en hover */
+}
+
+
+
+.module-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.module-card:hover {
+    transform: translateY(-5px); /* Elevar ligeramente en hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada en hover */
+}
+
+.footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #6c757d; /* Color de texto gris */
+    border-top: 1px solid #dee2e6; /* Línea superior para delimitar */
+}
