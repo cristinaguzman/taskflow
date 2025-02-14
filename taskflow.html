@@ -23,6 +23,17 @@
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
+                 /* Línea inferior para el enlace activo */
+                 .navbar-nav .nav-link.active {
+            border-bottom: 3px solid #0d6efd; /* Azul Bootstrap */
+            color: #0d6efd;
+            font-weight: 500;
+        }
+
+        /* Efecto opcional al pasar el mouse */
+        .navbar-nav .nav-link:hover {
+            border-bottom: 3px solid rgba(13, 110, 253, 0.3);
+        }
 </style>
 
 <body>
@@ -35,29 +46,39 @@
         </div>
     </header>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="asset/img/4rlab.png" alt="Logo" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="quienesomos.html">Quiénes Somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="taskflow.html">Qué es
-                            TaskFlow</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ingresar.html">Ingresar</a></li>
-                </ul>
-            </div>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="asset/img/4rlab.png" alt="Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quienesomos.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="taskflow.html">Qué es TaskFlow</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ingresar.html">Ingresar</a>
+                </li>
+            </ul>
         </div>
-    </nav>
-    <!-- Navbar -->
+    </div>
+</nav>
+<!-- Navbar -->
 
     <!-- Main Content -->
     <main class="container my-5">
