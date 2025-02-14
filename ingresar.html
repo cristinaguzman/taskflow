@@ -66,93 +66,36 @@
         <!-- Navbar -->
 
     <!-- Main Content -->
-    <main class="container my-5">
-        <section class="row align-items-center">
-            <div class="col-md-6">
-                <h2 class="text-primary">Nuestra Misión</h2>
-                <p>
-                    Automatizamos procesos y optimizamos operaciones para ayudar a empresas de todos los tamaños a alcanzar su máximo potencial.
-                    Nuestra misión es ser el aliado tecnológico ideal para transformar desafíos en soluciones innovadoras.
-                </p>
-            </div>
-            <div class="col-md-6 text-center">
-                <img src="https://images.pexels.com/photos/7792743/pexels-photo-7792743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nuestra Misión" class="img-fluid rounded shadow">
-            </div>
+    <main class="container vh-100 d-flex justify-content-center align-items-center">
+        <section class="card p-4 shadow-sm w-100" style="max-width: 400px;">
+            <h1 class="mb-4 text-center">Acceder</h1>
+
+            <form action="#" method="POST">
+                <div class="mb-3">
+                    <label for="usuario" class="form-label">Nombre de usuario o correo electrónico:</label>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Ingrese su usuario" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Ingrese su contraseña" required>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input type="checkbox" id="mantenerConectado" class="form-check-input">
+                    <label class="form-check-label" for="mantenerConectado">Mantenerme conectado</label>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <button type="submit" class="btn btn-primary flex-grow-1">Acceder</button>
+                    <button type="button" class="btn btn-light flex-grow-1">Registro</button>
+                </div>
+
+                <div class="text-center mt-3">
+                    <a href="#" class="text-decoration-none">¿Has olvidado tu contraseña?</a>
+                </div>
+            </form>
         </section>
-
-        <hr class="my-5">
-
-        <section class="row align-items-center">
-            <div class="col-md-6 order-md-2">
-                <h2 class="text-success">Nuestra Visión</h2>
-                <p>
-                    Ser líderes en el desarrollo de plataformas tecnológicas, promoviendo la automatización inteligente y la trazabilidad total
-                    en los procesos empresariales. Aspiramos a impactar positivamente en la eficiencia y el éxito de las organizaciones.
-                </p>
-            </div>
-            <div class="col-md-6 text-center order-md-1">
-                <img src="https://images.pexels.com/photos/3184436/pexels-photo-3184436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Nuestra Visión" class="img-fluid rounded shadow">
-            </div>
-        </section>
-
-        <hr class="my-5">
-
-        <section class="hero-section col-md-12">
-            <div class="container">
-                <div class="row align-items-center">
-                    <!-- Texto principal -->
-                    <div class="col-md-6">
-                        <h1 class="hero-text">
-                            Somos innovadores en el desarrollo de plataformas <span class="text-primary">SaaS</span> que transforman la gestión empresarial.
-                        </h1>
-                        <p class="hero-subtext">
-                            Automatizamos procesos, optimizamos operaciones y aseguramos la trazabilidad total para empresas de cualquier tamaño.
-                        </p>
-                    </div>
-    
-                    <!-- Imágenes alineadas a la derecha -->
-                    <div class="col-md-6">
-                        <div class="d-flex  gap-3 ">
-                            <div class="col-md-6 text-center order-md-1">
-                                <img src="asset/img/taskflow_web.png" alt="Análisis de datos" class="img-fluid rounded shadow" >
-                            </div>
-                            <div class="col-md-6 text-center order-md-1">
-                                <img src="asset/img/taskflow_web2.png" alt="Plataforma SaaS" class="img-fluid rounded shadow" >
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <hr class="my-5">
-
-  <section class="center-content">
-        <div class="container values-section text-center">
-            <h2 class="text-center text-info">Nuestros Valores</h2>
-            <div class="row text-center mt-4">
-                <div class="col-md-4">
-                    <div class="p-4 border rounded shadow-sm">
-                        <h5 class="text-primary">Innovación</h5>
-                        <p>Promovemos el pensamiento creativo para ofrecer soluciones únicas a nuestros clientes.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 border rounded shadow-sm">
-                        <h5 class="text-success">Compromiso</h5>
-                        <p>Nos dedicamos a superar las expectativas y garantizar resultados óptimos.</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="p-4 border rounded shadow-sm">
-                        <h5 class="text-danger">Integridad</h5>
-                        <p>Mantenemos los más altos estándares éticos en todas nuestras acciones.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     </main>
 
         <!-- Footer -->
