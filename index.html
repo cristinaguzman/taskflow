@@ -8,6 +8,16 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
             rel="stylesheet">
         <link rel="stylesheet" src="asset/css/styles.css">
+        <style>
+            .img-hover-effect {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+    
+            .img-hover-effect:hover {
+                transform: scale(1.1);
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            }
+        </style>
     </head>
     <body>
 
@@ -123,11 +133,11 @@
                     <div class="row">
                         <div class="col-6">
                             <img src="asset/img/Optimizacion_Procesos.png"
-                                alt="Imagen 1" class="img-fluid">
+                                alt="Imagen 1" class="img-fluid img-hover-effect">
                         </div>
                         <div class="col-6">
                             <img src="asset/img/Optimizacion_Procesos2.png"
-                                alt="Imagen 2" class="img-fluid">
+                                alt="Imagen 2" class="img-fluid img-hover-effect">
                         </div>
                     </div>
                 </div>
